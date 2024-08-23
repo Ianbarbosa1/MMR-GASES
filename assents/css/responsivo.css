@@ -374,6 +374,9 @@
     #frases h2{
         font-size: 35px;
     }
+    .redes{
+        top: 50px;
+    }
 
     .sobre{
         padding: 50px 0px;
@@ -573,6 +576,7 @@
         gap: 80px;
     }
 } 
+
 @media screen and (min-width:2000px) and (max-width:2800px){
     .redes{
         top: 100px;
