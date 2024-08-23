@@ -81,7 +81,7 @@ header{
     bottom: 30px;
 }
 .redes img{
-    height: 40px;
+    height: 50px;
 }
 .redes img:hover{
     border: 1px solid rgb(255, 255, 255);
@@ -243,37 +243,27 @@ main{
     flex-direction: column;
     justify-content: initial;
     border-radius: 5px;
-    animation: entrada 1ms ease-in-out;
-    animation-timeline: view();
-    animation-range:cover 0% 20%;
 }
 .gases-two{
     background-image: url(../imagens/produtos/machines.png);
-    animation-range:cover 0% 30%;
 }
 .gases-three{
     background-image: url(../imagens/produtos/fuel.png);
-    animation-range:cover 0% 40%;
 }
 .gases-four{
     background-image: url(../imagens/produtos/gas-plastic.png);
-    animation-range:cover 0% 20%;
 }
 .gases-five{
     background-image: url(../imagens/produtos/destista.img.png);
-    animation-range:cover 0% 30%;
 }
 .gases-six{
     background-image: url(../imagens/produtos/gas-pneu.png);
-    animation-range:cover 0% 35%;
 }
 .gases-seven{
     background-image: url(../imagens/produtos/soldagem.img.png);
-    animation-range:cover 0% 20%;
 }
 .gases-eight{
     background-image: url(../imagens/produtos/water.png);
-    animation-range:cover 0% 25%;
 }
 .titulo-produtos{
     font-size: 25px;
@@ -650,8 +640,8 @@ footer{
     height: 30px;
 }
 
-/*ANIMAÇÕES*/
 
+/*ANIMAÇÕES*/
 @keyframes degrade {
     0%{
         background-position-x:0%;
