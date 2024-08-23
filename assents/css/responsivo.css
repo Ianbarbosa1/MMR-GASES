@@ -1,0 +1,580 @@
+@media screen and (min-width: 350px) and (max-width:479px){
+    .container-inicial{
+        width: 95%;
+        left: 17px;
+        top: 200px;
+    }
+    #imagem{
+        height: 100px;
+    }
+    #frases{
+        left: -50px;
+    }
+    #frases h1{
+        font-size: 21px;
+    }
+    #frases h2{
+        font-size: 25px;
+    }
+    .one-bar{
+        width: 100px;
+        left: 30px;
+    }
+    .solicita-botao{
+        width: 320px;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .redes{
+        display: none;
+    }
+
+    .sobre{
+        padding: 50px 0px;
+        height: 100%;
+        gap: 50px 0px;
+    }
+    .container-sobre{
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .logo-sobre h1{
+        font-size: 30px;
+    }
+    .logo-sobre img{
+        width: 250px;
+        margin: 20px 0px 40px 0px;
+    }
+    .texto-sobre{
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .diferencias{
+        padding: 50px 0px;
+        height:100%;
+        width: 100%;
+    }
+    .diferencias h1{
+        font-size: 28px;
+    }
+    .container-diferenciais{
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    .diferenca{
+        margin-top: 50px;
+    }
+
+    .produtos h1, .four-bar{
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .four-bar{
+        margin-top: 5px;
+        margin-left: 10px;
+        width: 320px;
+    }
+    .container-produtos{
+        flex-wrap: wrap;
+        gap: 50px 0px;
+        margin-top: 100px;
+    }
+    .gases-one, .gases-two, .gases-three, .gases-four, .gases-five, .gases-six, .gases-seven, .gases-eight{
+        height:350px;
+        width: 320px;
+    }
+    .container-produtos-invisivel{
+        gap: 75px;
+        flex-wrap: wrap;
+    }
+
+    .servicos h1{
+        font-size: 28px;
+    }
+    .servicos small{
+        font-size: 15px;
+    }
+    .container-servicos{
+        gap:90px ;
+        flex-wrap: wrap;
+    }
+    .tipo-servico{
+        height: 250px;
+        width: 300px;
+    }
+
+    .container-perguntas{
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .perguntas h1{
+        font-size: 34px;
+    }
+
+    .fale-conosco h1{
+        font-size: 35px;
+    }
+    .fale-conosco p{
+        font-size: 20px;
+    }
+    .container-contato{
+        margin-top: 50px;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .form-map{
+        gap: 50px;
+        flex-direction: column;
+    }
+    iframe{
+        height: 300px;
+        width: 340px;
+    }
+
+    .parceiros h1{
+        font-size: 32px;
+    }
+    .empresa{
+        width: 340px;
+        height: 120px;
+    }
+    marquee img{
+        height: 140px;
+        width: 140px;
+        margin: 0px 5px;
+    }
+
+    footer{
+        height: 100%;
+        padding: 50px 0px;
+    }
+    .container-footer{
+        padding: 0px 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px 20px;
+    }
+    .logo-final img{
+        height: 90px;
+    }
+    .logo-final strong{
+        font-size: 17px;
+    }
+    .logo-final h2{
+        font-size: 17px;
+    }
+    .logo-final p{
+        font-size: 12px;
+    }
+    .logo-final-contato h2{
+        font-size: 17px;
+    }
+    .contato-numero img{
+        height: 25px;
+    }
+    .contato-numero p{
+        font-size: 14px;
+    }
+    .logo-pagina{
+        display: none;
+    }
+    .desenvolvedora{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width:689px){
+    .container-inicial{
+        width: 95%;
+        left: 20px;
+    }
+    #imagem{
+        height: 120px;
+    }
+    #frases{
+        left: -50px;
+    }
+    #frases h1{
+        font-size: 28px;
+    }
+    #frases h2{
+        font-size: 30px;
+    }
+    .solicita-botao{
+        width: 400px;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .redes{
+        display: none;
+    }
+
+    .sobre{
+        padding: 50px 0px;
+        height: 100%;
+        gap: 50px 0px;
+    }
+    .container-sobre{
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .logo-sobre h1{
+        font-size: 35px;
+    }
+    .logo-sobre img{
+        width: 250px;
+        margin: 20px 0px 40px 0px;
+    }
+    .texto-sobre{
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .diferencias{
+        padding: 50px 0px;
+        height:100%;
+    }
+    .diferencias h1{
+        font-size: 35px;
+    }
+    .container-diferenciais{
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    .diferenca{
+        margin-top: 50px;
+    }
+
+    .produtos h1, .four-bar{
+        font-size: 35px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .four-bar{
+        margin-left: 10px;
+    }
+    .container-produtos{
+        flex-wrap: wrap;
+        gap: 50px 0px;
+        margin-top: 100px;
+    }
+    .container-produtos-invisivel{
+        gap: 75px;
+        flex-wrap: wrap;
+    }
+
+    .servicos h1{
+        font-size: 35px;
+    }
+    .servicos small{
+        font-size: 20px;
+    }
+    .container-servicos{
+        gap:90px ;
+        flex-wrap: wrap;
+    }
+    .tipo-servico{
+        height: 250px;
+        width: 300px;
+    }
+
+    .container-perguntas{
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .perguntas h1{
+        font-size: 34px;
+    }
+
+    .fale-conosco h1{
+        font-size: 35px;
+    }
+    .fale-conosco p{
+        font-size: 20px;
+    }
+    .container-contato{
+        margin-top: 50px;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .form-map{
+        gap: 50px;
+        flex-direction: column;
+    }
+    iframe{
+        width: 450px;
+    }
+
+    .parceiros h1{
+        font-size: 32px;
+    }
+    .empresa{
+        width: 470px;
+        height: 120px;
+    }
+    marquee img{
+        height: 140px;
+        width: 140px;
+        margin: 0px 5px;
+    }
+
+    footer{
+        height: 100%;
+        padding: 50px 0px;
+    }
+    .container-footer{
+        padding: 0px 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px 20px;
+    }
+    .logo-final img{
+        height: 90px;
+    }
+    .logo-final strong{
+        font-size: 17px;
+    }
+    .logo-final h2{
+        font-size: 17px;
+    }
+    .logo-final p{
+        font-size: 12px;
+    }
+    .logo-final-contato h2{
+        font-size: 17px;
+    }
+    .contato-numero img{
+        height: 25px;
+    }
+    .contato-numero p{
+        font-size: 14px;
+    }
+    .logo-pagina{
+        display: none;
+    }
+
+} 
+
+@media screen and (min-width: 690px) and (max-width:849px){
+    .container-inicial{
+        width: 90%;
+        left: 50px;
+    }
+    #frases{
+        left: -50px;
+    }
+    #frases h1{
+        font-size: 35px;
+    }
+    #frases h2{
+        font-size: 35px;
+    }
+
+    .sobre{
+        padding: 50px 0px;
+        height: 100%;
+        gap: 50px 0px;
+    }
+    .container-sobre{
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .logo-sobre h1{
+        font-size: 45px;
+    }
+    .logo-sobre img{
+        width: 350px;
+        margin: 20px 0px 40px 0px;
+    }
+    .texto-sobre{
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .diferencias{
+        padding: 50px 0px;
+        height:100%;
+        flex-direction: column;
+    }
+    .container-diferenciais{
+        gap: 10px 40px;
+        flex-wrap: wrap;
+    }
+
+    .container-produtos{
+        flex-wrap: wrap;
+        gap: 50px 0px;
+        margin-top: 100px;
+    }
+    .container-produtos-invisivel{
+        gap: 75px;
+        flex-wrap: wrap;
+    }
+
+    .container-servicos{
+        gap:85px 40px;
+        flex-wrap: wrap;
+    }
+    .tipo-servico{
+        height: 250px;
+        width: 300px;
+    }
+
+    .container-perguntas{
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .perguntas h1{
+        font-size: 38px;
+    }
+
+    .container-contato{
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .form-map{
+        gap: 50px;
+        flex-direction: column;
+    }
+    iframe{
+        width: 550px;
+    }
+
+    .empresa{
+        width: 650px;
+    }
+
+    footer{
+        height: 100%;
+        padding: 50px 0px;
+    }
+    .container-footer{
+        padding: 0px 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px 150px;
+    }
+    .logo-final img{
+        height: 90px;
+    }
+    .logo-final strong{
+        font-size: 17px;
+    }
+    .logo-final h2{
+        font-size: 17px;
+    }
+    .logo-final p{
+        font-size: 12px;
+    }
+    .logo-final-contato h2{
+        font-size: 17px;
+    }
+    .contato-numero img{
+        height: 25px;
+    }
+    .contato-numero p{
+        font-size: 14px;
+    }
+} 
+
+@media screen and (min-width: 850px) and (max-width:1149px){
+    .container-inicial{
+        width: 85%;
+    }
+    .sobre{
+        padding: 50px 0px;
+        height: 100%;
+        gap: 50px 0px;
+    }
+    .container-sobre{
+        margin-top: 50px;
+    }
+    .logo-sobre h1{
+        font-size: 45px;
+    }
+    .logo-sobre img{
+        width: 350px;
+    }
+    .texto-sobre{
+        width: 450px;
+        font-size: 25px;
+    }
+
+    .container-diferenciais{
+        gap: 40px;
+    }
+
+    .container-produtos{
+        flex-wrap: wrap;
+        gap: 50px 0px;
+        margin-top: 100px;
+    }
+    .container-produtos-invisivel{
+        gap: 75px;
+        flex-wrap: wrap;
+    }
+
+    .container-servicos{
+        gap:85px 40px;
+        flex-wrap: wrap;
+    }
+
+    .container-perguntas{
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .perguntas h1{
+        font-size: 38px;
+    }
+
+    .container-contato{
+        gap: 50px;
+    }
+    .contato{
+        height: 200px;
+        width: 245px;
+    }
+    .contato p{
+        font-size: 15px;
+    }
+    .form-map{
+        gap: 50px;
+    }
+    iframe{
+        width: 430px;
+    }
+    .empresa{
+        width: 800px;
+    }
+    .container-footer{
+        padding: 0px 0px;
+    }
+} 
+
+@media screen and (min-width:1150px) and (max-width:1200px){
+    .container-sobre{
+        margin-top: 50px;
+    }
+    .sobre{
+        gap: 100px 0px;
+    }
+    .texto-sobre{
+        width: 600px;
+    }
+    .container-servicos{
+        gap: 80px;
+    }
+    .container-perguntas{
+        gap: 80px;
+    }
+} 
+@media screen and (min-width:2000px) and (max-width:2800px){
+    .redes{
+        top: 100px;
+    }
+} 
