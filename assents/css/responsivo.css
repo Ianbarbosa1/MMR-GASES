@@ -577,8 +577,246 @@
     }
 } 
 
-@media screen and (min-width:2000px) and (max-width:2800px){
+@media screen and (min-width:2500px) and (max-width:3100px){
+    #imagem{
+        height: 250px;
+    }
+    #frases h1{
+        font-size: 60px;
+    }
+    #frases h2{
+        font-size: 55px;
+    }
+    
+    .one-bar{
+        width: 300px;
+        left: 40px;
+    }
+    .solicita-botao{
+        width: 650px;
+        font-size: 35px;
+        padding: 30px 0px;
+        margin-top: 100px;
+    }
     .redes{
         top: 100px;
     }
-} 
+    .redes img{
+        height: 70px;
+    }
+
+    .sobre{
+        height: 100%;
+        padding: 100px 0px ;
+    }
+    .logo-sobre h1{
+        font-size: 65px;
+    }
+    .two-bar{
+        width: 300px;
+    }
+    .logo-sobre img{
+        width: 600px;
+        border-radius: 200px;
+    }
+    .texto-sobre{
+        font-size: 45px;
+        width: 1000px;
+        padding:20px;
+    }
+    .entrar-botao{
+        font-size: 30px;
+        padding: 35px;
+    }
+
+    .diferencias{
+        padding: 100px;
+        height: 100%;
+        width: 100%;
+    }
+    .diferencias h1{
+        font-size: 60px;
+    }
+    .three-bar{
+        width: 400px;
+    }
+    .diferenca{
+        height: 350px;
+        width: 400px;
+        margin-top: 150px;
+        font-size: 30px;
+    }
+    .diferenca img{
+        height: 200px;
+        bottom: 90px;
+    }
+
+    .produtos h1, .four-bar{
+        font-size: 60px;
+    }
+    .four-bar{
+        height: 10px;
+        width: 680px;
+    }
+    .gases-one, .gases-two, .gases-three, .gases-four, .gases-five, .gases-six, .gases-seven, .gases-eight{
+        height: 500px;
+        width: 500px;
+    }
+    .titulo-produtos{
+        font-size: 40px;
+        height: 60px;
+        width: 300px;
+    }
+    .especificacao{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .gases-one img, .gases-two img, .gases-three img, .gases-four img, .gases-five img, .gases-six img, .gases-seven img, .gases-eight img{
+        height: 200px;
+    }
+    .ver-mais, .ver-menos{
+        font-size: 35px;
+    }
+
+    .servicos h1{
+        font-size: 60px;
+    }
+    .servicos small{
+        font-size: 40px;
+    }
+    .container-servicos{
+        margin-top: 200px;
+        gap: 200px;
+    }
+    .tipo-servico{
+        height: 400px;
+        width: 420px;
+    }
+    .tipo-servico img, .tipo-servico h2, .tipo-servico p{
+        height: 210px;
+        bottom: 100px;
+    }
+    .tipo-servico h2{
+        font-size: 30px;
+        bottom: 60px;
+    }
+    .tipo-servico p{
+        font-size: 25px; 
+    }
+    .saiba-botao{
+        padding: 25px 50px;
+        font-size: 30px;
+    }
+
+    .perguntas h1{
+        font-size: 60px;
+    }
+    .pergunta-resposta{
+        height: 500px;
+        width: 600px;
+    }
+    .perguntas h3{
+        font-size: 40px;
+    }
+    .perguntas p{
+        font-size: 30px;
+    }
+
+    .fale-conosco h1{
+        font-size: 60px;
+    }
+    .fale-conosco p{
+        font-size: 40px;
+    }
+    .contato{
+        height: 250px;
+        width: 350px;
+    }
+    .contato img{
+        height: 90px;
+    }
+    .contato h4{
+        font-size:25px;
+    }
+    .contato p{
+        font-size: 23px;
+    }
+    iframe{
+        height: 500px;
+        width: 700px;
+    }
+    .formulario{
+        gap: 25px;
+        height: 450px;
+        width: 450px;
+    }
+    .formulario h5{
+        font-size: 30px;
+    }
+    .nome{
+        height: 40px;
+        width: 350px;
+        font-size: 20px;
+    }
+    textarea{
+        font-size: 20px;
+        height: 200px;
+        width: 350px;
+    }
+    .form-botao{
+        padding: 15px 25px;
+        font-size: 20px;
+    }
+
+    .parceiros h1{
+        font-size: 60px;
+    }
+    .empresa{
+        width: 1500px;
+    }
+
+    footer{
+        height: 320px;
+    }
+    .logo-final img{
+        height: 120px;
+    }
+    .logo-final strong{
+        font-size: 25px;
+    }
+    .logo-final p{
+        font-size: 18px;
+    }
+    .logo-final-contato h2{
+        font-size: 25px;
+    }
+    .contato-numero{
+        gap: 5px;
+        margin: 10px 0px;
+    }
+    .contato-numero img{
+        height: 40px;
+    }
+    .contato-numero p{
+        font-size: 25px;
+    }
+    .logo-pagina a{
+        font-size: 23px;
+    }
+    .redes-sociais h2{
+        font-size: 25px;
+    }
+    .sociais{
+        gap: 25px;
+    }
+    .sociais img{
+        height: 50px;
+    }
+    .desenvolvedora{
+        font-size: 25px;
+        gap: 10px;
+    }
+    .desenvolvedora img{
+        height: 40px;
+    }
+}
