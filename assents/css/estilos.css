@@ -97,7 +97,8 @@ main{
 
 /*SOBRE A EMPRESA*/
 .sobre{
-    height: 100vh;
+    padding: 50px 0px ;
+    height: 100%;
     width: 100%;
     content:"";
     background-image: url(../imagens/empresarial-img.png);
@@ -580,14 +581,21 @@ footer{
     height: 100px;
     border-radius: 20px;
 }
-.logo-final h2{
-    font-size: 20px;
-}
 .logo-final strong{
     font-size: 17px;
 }
 .logo-final p{
     font-size: 14px;
+}
+.logo-final-contato h2{
+    font-size: 20px;
+}
+.contato-numero{
+    gap: 5px;
+    margin: 10px 0px;
+}
+.contato-numero img{
+    height: 30px;
 }
 .logo-pagina{
     flex-direction: column;
@@ -600,16 +608,6 @@ footer{
 }
 .logo-pagina a:hover{
     color:rgb(71, 172, 96) ;
-}
-.logo-final-contato h2{
-    font-size: 20px;
-}
-.contato-numero{
-    gap: 5px;
-    margin: 10px 0px;
-}
-.contato-numero img{
-    height: 30px;
 }
 .redes-sociais{
     flex-direction: column;
@@ -639,7 +637,6 @@ footer{
 .desenvolvedora img{
     height: 30px;
 }
-
 
 
 /*ANIMAÇÕES*/
