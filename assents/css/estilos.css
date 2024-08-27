@@ -89,7 +89,6 @@ header{
 }
 
 
-
 main{
     width: 100%;
     height: 100%;
@@ -97,7 +96,7 @@ main{
 
 /*SOBRE A EMPRESA*/
 .sobre{
-    padding: 50px 0px ;
+    padding: 50px 0px;
     height: 100%;
     width: 100%;
     content:"";
@@ -238,7 +237,7 @@ main{
     height:350px;
     width: 350px;
     content: '';
-    background-image: url(../imagens/produtos/bebida.img.png);
+    background-image: url(../imagens/produtos/bebida.jpeg);
     background-size: cover;
     background-position: center;
     flex-direction: column;
@@ -246,25 +245,25 @@ main{
     border-radius: 5px;
 }
 .gases-two{
-    background-image: url(../imagens/produtos/machines.png);
+    background-image: url(../imagens/produtos/machines.jpeg);
 }
 .gases-three{
-    background-image: url(../imagens/produtos/fuel.png);
+    background-image: url(../imagens/produtos/combustivel.jpeg);
 }
 .gases-four{
-    background-image: url(../imagens/produtos/gas-plastic.png);
+    background-image: url(../imagens/produtos/plastico.jpeg);
 }
 .gases-five{
-    background-image: url(../imagens/produtos/destista.img.png);
+    background-image: url(../imagens/produtos/dentista.jpeg);
 }
 .gases-six{
-    background-image: url(../imagens/produtos/gas-pneu.png);
+    background-image: url(../imagens/produtos/pneu.jpeg);
 }
 .gases-seven{
-    background-image: url(../imagens/produtos/soldagem.img.png);
+    background-image: url(../imagens/produtos/soldagem.jpeg);
 }
 .gases-eight{
-    background-image: url(../imagens/produtos/water.png);
+    background-image: url(../imagens/produtos/water.jpeg);
 }
 .titulo-produtos{
     font-size: 25px;
