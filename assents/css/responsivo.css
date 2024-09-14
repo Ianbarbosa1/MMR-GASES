@@ -566,9 +566,11 @@
     .formulario{
         width: 400px;
     }
+    
     .empresa{
         width: 800px;
     }
+
     .container-footer{
         padding: 0px 0px;
     }
@@ -584,6 +586,7 @@
     .texto-sobre{
         width: 600px;
     }
+
     .container-servicos{
         gap: 80px;
     }
