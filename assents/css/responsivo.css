@@ -2,7 +2,7 @@
     .container-inicial{
         width: 95%;
         left: 17px;
-        top: 200px;
+        top: 140px;
     }
     #imagem{
         height: 100px;
@@ -42,7 +42,7 @@
         font-size: 30px;
     }
     .logo-sobre img{
-        width: 250px;
+        height: 150px;
         margin: 20px 0px 40px 0px;
     }
     .texto-sobre{
@@ -98,12 +98,15 @@
         font-size: 15px;
     }
     .container-servicos{
-        gap:90px ;
+        gap:90px;
         flex-wrap: wrap;
     }
     .tipo-servico{
         height: 250px;
         width: 300px;
+    }
+    .tipo-servico h2{
+        bottom: 60px;
     }
 
     .container-perguntas{
@@ -132,6 +135,15 @@
     iframe{
         height: 300px;
         width: 340px;
+    }
+    .formulario{
+        width: 350px;
+    }
+    .nome, .numero, .email{
+        width: 300px;
+    }
+    textarea{
+        width: 300px;
     }
 
     .parceiros h1{
@@ -226,7 +238,7 @@
         font-size: 35px;
     }
     .logo-sobre img{
-        width: 250px;
+        height:200px;
         margin: 20px 0px 40px 0px;
     }
     .texto-sobre{
@@ -391,7 +403,7 @@
         font-size: 45px;
     }
     .logo-sobre img{
-        width: 350px;
+        height: 200px;
         margin: 20px 0px 40px 0px;
     }
     .texto-sobre{
@@ -501,7 +513,7 @@
         font-size: 45px;
     }
     .logo-sobre img{
-        width: 350px;
+        height: 350px;
     }
     .texto-sobre{
         width: 450px;
@@ -546,10 +558,13 @@
         font-size: 15px;
     }
     .form-map{
-        gap: 50px;
+        gap: 30px;
     }
     iframe{
-        width: 430px;
+        width: 400px;
+    }
+    .formulario{
+        width: 400px;
     }
     .empresa{
         width: 800px;
@@ -590,7 +605,7 @@
     
     .one-bar{
         width: 300px;
-        left: 40px;
+        left: 45px;
     }
     .solicita-botao{
         width: 650px;
@@ -616,8 +631,7 @@
         width: 300px;
     }
     .logo-sobre img{
-        width: 600px;
-        border-radius: 200px;
+        height: 500px;
     }
     .texto-sobre{
         font-size: 45px;
@@ -747,21 +761,16 @@
     }
     .formulario{
         gap: 25px;
-        height: 450px;
-        width: 450px;
     }
     .formulario h5{
         font-size: 30px;
     }
-    .nome{
+    .nome, .numero, .email{
         height: 40px;
-        width: 350px;
         font-size: 20px;
     }
     textarea{
         font-size: 20px;
-        height: 200px;
-        width: 350px;
     }
     .form-botao{
         padding: 15px 25px;
