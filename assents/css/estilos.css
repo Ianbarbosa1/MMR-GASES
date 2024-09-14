@@ -2,7 +2,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    font-family:'Montserrat';
+    font-family: "Work Sans", system-ui;
 }
 
 /*DIVs FLEX*/
@@ -16,8 +16,8 @@ header{
     height: 100vh;
     width:100%;
     content: '';
-    background-image: url(../imagens/img-background.png);
-    background-position: center;
+    background-image: url(../imagens/novos/background-2.jpg);
+    background-position: bottom;
     background-size: cover;
 }
 .container-inicial{
@@ -27,7 +27,7 @@ header{
     width: 90%;
 }
 #imagem{
-    height: 150px;
+    height: 170px;
     opacity: 0;
     transition: all 1s;
 }
@@ -38,7 +38,7 @@ header{
 }
 #frases h1{
     font-size: 45px;
-    color: rgb(35, 110, 63);
+    color: rgb(1, 110, 89);
 }
 #frases h2{
     font-size: 40px;
@@ -48,14 +48,14 @@ header{
     height: 8px;
     width: 200px;
     border-radius: 20px;
-    background-color: rgb(35, 110, 63);
+    background-color: rgb(1, 110, 89);
     position: relative;
     left: 30px;
 }
 .solicita-botao{
     width: 470px;
     text-decoration: none;
-    color: rgb(35, 110, 63);
+    color: rgb(1, 110, 89);
     font-size: 25px;
     padding: 10px 0px;
     border-radius: 20px;
@@ -122,12 +122,12 @@ main{
     height: 8px;
     width: 150px;
     border-radius: 20px;
-    background-color: rgb(72, 171, 100);
+    background-color: rgb(1, 110, 89);
     position: relative;
 }
 .logo-sobre img{
-    width: 400px;
-    border-radius: 100px;
+    height: 300px;
+    border-radius: 50%;
     margin-top: 100px;
     border:1px solid white;
 }
@@ -145,7 +145,7 @@ main{
 .entrar-botao{
     font-size: 20px;
     text-decoration: none;
-    background-image: linear-gradient(to left,rgb(127, 216, 88),rgb(127, 216, 88), white, rgb(127, 216, 88), rgb(127, 216, 88));
+    background-image: linear-gradient(to left,rgb(170, 203, 99),rgb(170, 203, 99), white, rgb(170, 203, 99), rgb(170, 203, 99));
     background-size: 300% 100%;
     animation: degrade 5s infinite alternate;
     color: white;
@@ -154,7 +154,7 @@ main{
     transition: all 0.5s ease-in-out;
 }
 .entrar-botao:hover{
-    color:rgb(35, 110, 63);
+    color:rgb(1, 110, 89);
 }
 
 
@@ -167,13 +167,13 @@ main{
 }
 .diferencias h1{
     font-size: 40px;
-    color: rgb(35, 110, 63);
+    color: rgb(1, 110, 89);
 }
 .three-bar{
     height: 8px;
     width: 200px;
     border-radius: 20px;
-    background-color: rgb(72, 171, 100);
+    background-color: rgb(1, 110, 89);
     position: relative;
 }
 .container-diferenciais{
@@ -209,20 +209,19 @@ main{
     height: 100%;
     width: 100%;
     content: "";
-    background-image: url(../imagens/gradiente-verde.png);
-    background-position: center;
+    background-image: url(../imagens/novos/logo-comfundo-png/fundo-verdeescuro-letra-verde-1.png);
 }
 .produtos h1, .four-bar{
     font-size: 40px;
     margin-top: 50px;
     margin-left: 100px;
-    color: rgb(34, 32, 69);
+    color: rgb(255, 255, 255);
 }
 .four-bar{
     height: 8px;
     width: 450px;
     border-radius: 20px;
-    background-color: rgb(72, 171, 100);
+    background-color: rgb(170, 203, 99);
     margin-top: 10px;
     margin-left: 120px;
 }
@@ -269,7 +268,7 @@ main{
     font-size: 25px;
     height: 45px;
     width: 200px;
-    background-color: rgb(86, 176, 112);
+    background-color: rgb(1, 110, 89);
     border-radius: 15px;
     font-weight: 700;
     position: relative;
@@ -294,9 +293,13 @@ main{
     font-size: 20px;
     gap: 5px;
     padding: 11px 30px;
-    background-color:rgb(35, 110, 63);
+    background-color:rgb(1, 110, 89);
     border-radius: 20px;
     cursor: pointer;
+    border: 1px solid white;
+}
+.ver-mais:hover, .ver-menos:hover{
+    background-color:rgb(4, 134, 108);
 }
 .ver-menos{
     position: absolute;
@@ -320,7 +323,7 @@ main{
 }
 .servicos h1{
     font-size: 40px;
-    color: rgb(34, 32, 69);
+    color: rgb(34, 34, 32);
 }
 .servicos small{
     color: rgb(126, 217, 86);
@@ -370,7 +373,7 @@ main{
     background-color: rgb(126, 217, 86);
     border-radius: 20px;
     transition: all 0.5s ease-in-out;
-    background-image: linear-gradient(to left,rgb(126, 217, 86),rgb(126, 217, 86), white, rgb(126, 217, 86), rgb(126, 217, 86));
+    background-image: linear-gradient(to left,rgb(170, 203, 99),rgb(170, 203, 99), white, rgb(170, 203, 99), rgb(170, 203, 99));
     background-size: 300% 100%;
     animation: degrade 5s infinite alternate;
 }
@@ -384,9 +387,9 @@ main{
     height: 100%;
     width: 100%;
     content: '';
-    background-image: url(../imagens/back-mmr-invisivel.png);
+    background-image: url(../imagens/novos/logos-semfundo-png/bege-1.png);
     background-position: center;
-    background-size: contain;
+    background-size:contain;
     background-repeat: repeat;
     flex-direction: column;
     padding: 100px 0px;
@@ -394,7 +397,7 @@ main{
 }
 .perguntas h1{
     font-size: 40px;
-    color: rgb(34, 32, 69);
+    color: rgb(34, 34, 32);
 }
 .container-perguntas{
     gap: 150px;
@@ -407,11 +410,14 @@ main{
 }
 .perguntas h3{
     font-size: 22px;
-    color: rgb(34, 32, 69);
+    color: rgb(34, 34, 32);
+    
 }
 .perguntas p{
     font-size: 20px;
     margin-top: 20px;
+    padding: 10px;
+    backdrop-filter: blur(5px);
 }
 hr{
     border: 1px solid rgb(71, 171, 99);
@@ -424,7 +430,7 @@ hr{
     height: 100%;
     width: 100%;
     content: '';
-    background-image: url(../imagens/back-mmr-invisivel.png);
+    background-image: url(../imagens/novos/logos-semfundo-png/logo-semfundo-alterada.png);
     background-position: center;
     background-size: contain;
     background-repeat: repeat;
@@ -433,11 +439,11 @@ hr{
 }
 .fale-conosco h1{
     font-size: 40px;
-    color: rgb(34, 32, 69);
+    color: rgb(34, 34, 32);
 }
 .fale-conosco p{
     font-size: 25px;
-    color: rgb(34, 32, 69);
+    color: rgb(34, 34, 32);
     font-weight: 500;
 }
 .container-contato{
@@ -450,7 +456,7 @@ hr{
 .contato{
     height: 200px;
     width: 300px;
-    background-color: rgb(154, 209, 170);
+    background-color: rgb(1, 110, 89);
     border-radius: 20px;
     flex-direction: column;
     gap: 20px;
@@ -465,14 +471,13 @@ hr{
 }
 .contato h4{
     font-size: 20px;
-    color: rgb(34, 32, 69);
+    color: rgb(34, 34, 32);
 }
 .contato p{
     font-weight: 300;
     color: white;
     font-size: 19px;
     padding: 5px 10px;
-    background-color: rgb(71, 172, 96);
     border-radius: 5px;
 }
 .form-map{
@@ -480,30 +485,30 @@ hr{
     gap: 100px;
 }
 iframe{
-    height: 400px;
-    width: 450px;
+    height: 500px;
+    width: 550px;
     border-radius: 20px;
 }
 .formulario{
     flex-direction: column;
     gap: 40px;
-    height: 350px;
-    width: 350px;
-    background-color: rgba(187, 241, 203, 0.719);
+    height: 500px;
+    width: 450px;
+    background-color: rgba(170, 203, 99, 0.432);
     backdrop-filter: blur(10px);
     border-radius: 20px;
 }
 .formulario h5{
     font-size: 20px;
-    color: rgb(34, 32, 69);
+    color: rgb(34, 34, 32);
 }
 .formulario input, .formulario textarea{
     outline: none;
     border: none;
 }
-.nome{
+.nome, .numero, .email{
     height: 35px;
-    width: 300px;
+    width: 350px;
     padding: 0px 0px 0px 10px;
     font-size: 16px;
     background-color:rgba(255, 255, 255, 0.596);
@@ -514,7 +519,7 @@ textarea{
     font-size: 16px;
     resize: none;
     height: 100px;
-    width: 300px;
+    width: 350px;
     background-color:rgba(255, 255, 255, 0.596);
 }
 .form-botao{
@@ -526,7 +531,6 @@ textarea{
 }
 .form-botao:hover{
     color: rgba(187, 241, 203, 0.719);
-    padding: 11px 21px;
 }
 
 
@@ -535,13 +539,13 @@ textarea{
     height: 100%;
     width: 100%;
     padding: 20px 0px;
-    background-color:rgb(71, 171, 99);
+    background-color:rgb(1, 110, 89);
     flex-direction: column;
     text-align: center;
 }
 .parceiros h1{
     font-size: 45px;
-    color: rgb(34, 32, 69);
+    color: rgb(255, 255, 255);
 }
 .empresa{
     margin-top: 50px;
@@ -566,7 +570,7 @@ marquee img{
 footer{
     height: 300px;
     width: 100%;
-    background-color:rgb(34, 32, 69);
+    background-color:rgb(34, 34, 32);
     flex-direction: column;
     color: white;
 }
@@ -577,7 +581,7 @@ footer{
     text-align: center;
 }
 .logo-final img{
-    height: 100px;
+    height: 80px;
     border-radius: 20px;
 }
 .logo-final strong{
@@ -606,7 +610,7 @@ footer{
     flex-direction: column;
 }
 .logo-pagina a:hover{
-    color:rgb(71, 172, 96) ;
+    color:rgb(1, 110, 89) ;
 }
 .redes-sociais{
     flex-direction: column;
