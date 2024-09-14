@@ -52,6 +52,8 @@ botao.addEventListener('click', mensagem)
 function mensagem() {
     let numero = '5521997030738'
     let nome = document.querySelector('.nome').value
+    let tel = document.querySelector('.numero').value
+    let email = document.querySelector('.email').value
     let msg = document.querySelector('.mensagem').value
 
     if (hora >= 6 && hora <= 12) {
@@ -67,18 +69,30 @@ function mensagem() {
         comprimento = 'Boa noite!'
     }
 
-
     if(nome === ''){
         alert('Digite seu nome!')
+        preventDefault()
+    }
+    else if(tel === ''){
+        alert('Digite o numero do seu telefone!')
+        preventDefault()
+    }
+    else if(email === ''){
+        alert('Digite seu email!')
+        preventDefault()
     }
     else if(msg === ''){
         alert('Digite uma mensagem para enviar para a empresa!')
+        preventDefault()
     }
     else{
         let url = 'http://wa.me/' + numero + '?text='
         + comprimento + '%0a'
         + 'Sou '+ nome + '%0a'
+
         + msg + '%0a'
+        + 'Telefone: ' + tel + '%0a'
+        + 'Email: ' + email + '%0a'
         window.open(url, '_blank').focus()
     }
 }
