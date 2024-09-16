@@ -16,7 +16,7 @@ header{
     height: 100vh;
     width:100%;
     content: '';
-    background-image: url(../imagens/novos/background-2.jpg);
+    background-image: url(../imagens/novos/background-1\ modificado.jpg);
     background-position: bottom;
     background-size: cover;
 }
@@ -38,7 +38,7 @@ header{
 }
 #frases h1{
     font-size: 45px;
-    color: rgb(1, 110, 89);
+    color: rgb(208, 208, 198);
 }
 #frases h2{
     font-size: 40px;
@@ -115,7 +115,7 @@ main{
     flex-direction: column;
 }
 .logo-sobre h1{
-    font-size: 50px;
+    font-size: 45px;
     color: white;
 }
 .two-bar{
@@ -525,12 +525,12 @@ textarea{
 .form-botao{
     padding: 10px 20px;
     border-radius: 20px;
-    background-color: rgb(71, 172, 96);
+    background-color: rgb(1, 110, 89);
     color: white;
     cursor: pointer;
 }
 .form-botao:hover{
-    color: rgba(187, 241, 203, 0.719);
+    color: rgb(0, 0, 0);
 }
 
 
