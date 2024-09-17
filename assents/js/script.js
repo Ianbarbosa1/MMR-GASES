@@ -1,16 +1,26 @@
-let eFrase = document.querySelector('#frases')
-let eImage = document.querySelector('#imagem')
+let home = document.querySelector('#home')
+let logo = document.querySelector('.logo')
+let gases = document.querySelector('.gases')
+let fraseBotao = document.querySelector('.frases')
+setTimeout(() => {
+    home.style.transition = 'all 2s ease-in-out'
+    home.style.backgroundColor = 'rgb(1, 110, 89)'
 
-setInterval(() => {
-    eImage.style.transition = 'all 1s ease'
-    eImage.style.opacity = '1'
-}, 3000);
-setInterval(() => {
-    eFrase.style.transition = 'all 1s ease'
-    eFrase.style.opacity = '1'
-    eFrase.style.transform = 'translateX(50px)'
-}, 4000);
+    logo.style.transition = 'all 1s ease-in-out'
+    logo.style.opacity = '1'
+}, 1000);
 
+setTimeout(() => {
+    gases.style.transition = 'all 0.8s ease-in-out'
+    gases.style.transform = 'translateX(0)'
+    gases.style.opacity = '1'
+}, 1500);
+
+setTimeout(() => {
+    fraseBotao.style.transition = 'all 1.5s ease-in-out'
+    fraseBotao.style.transform = 'translateY(0)'
+    fraseBotao.style.opacity = '1'
+}, 2000);
 
 
 let botaoMais = document.querySelector('#mais')
