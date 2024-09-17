@@ -2,6 +2,7 @@ let home = document.querySelector('#home')
 let logo = document.querySelector('.logo')
 let gases = document.querySelector('.gases')
 let fraseBotao = document.querySelector('.frases')
+
 setTimeout(() => {
     home.style.transition = 'all 2s ease-in-out'
     home.style.backgroundColor = 'rgb(1, 110, 89)'
