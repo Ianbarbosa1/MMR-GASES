@@ -6,51 +6,37 @@
 }
 
 /*DIVs FLEX*/
-.solicita-botao, .redes, .sobre, .container-sobre, .logo-sobre, .diferencias, .container-diferenciais, .container-produtos,.gases-one, .gases-two, .gases-three, .gases-four, .gases-five, .gases-six, .gases-seven, .gases-eight, .titulo-produtos, .botoes, .ver-mais, .ver-menos,.container-produtos-invisivel, .servicos, .container-servicos, .tipo-servico, .perguntas, .container-perguntas, .fale-conosco, .container-contato, .contato, .form-map, .formulario, .parceiros, .empresa, footer, .container-footer, .logo-pagina, .contato-numero, .redes-socias, .sociais, .desenvolvedora{
+header, .container-imagens, .frases, .solicita-botao, .redes, .sobre, .container-sobre, .logo-sobre, .diferencias, .container-diferenciais, .container-produtos,.gases-one, .gases-two, .gases-three, .gases-four, .gases-five, .gases-six, .gases-seven, .gases-eight, .titulo-produtos, .botoes, .ver-mais, .ver-menos,.container-produtos-invisivel, .servicos, .container-servicos, .tipo-servico, .perguntas, .container-perguntas, .fale-conosco, .container-contato, .contato, .form-map, .formulario, .parceiros, .empresa, footer, .container-footer, .logo-pagina, .contato-numero, .redes-socias, .sociais, .desenvolvedora{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 header{
     height: 100vh;
     width:100%;
-    content: '';
-    background-image: url(../imagens/novos/background-1\ modificado.jpg);
-    background-position: bottom;
-    background-size: cover;
+    flex-direction: column;
+    background-color:rgb(170, 203, 99);
 }
-.container-inicial{
-    position:absolute;
-    left: 100px;
-    top: 100px;
-    width: 90%;
-}
-#imagem{
-    height: 170px;
-    opacity: 0;
-    transition: all 1s;
-}
-#frases{
-    position: relative;
-    left: -50px;
+.logo{
+    height: 250px;
     opacity: 0;
 }
-#frases h1{
-    font-size: 45px;
-    color: rgb(208, 208, 198);
+.gases{
+    transform: translateX(-200px);
+    opacity: 0;
 }
-#frases h2{
+.frases{
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(200px);
+    text-align: center;
+}
+.frases h1{
     font-size: 40px;
-    color: rgb(217, 40, 39);
+    color:rgb(208, 208, 198);
 }
-.one-bar{
-    height: 8px;
-    width: 200px;
-    border-radius: 20px;
-    background-color: rgb(1, 110, 89);
-    position: relative;
-    left: 30px;
+.frases span{
+    border-bottom:2px solid rgb(170, 203, 99);
 }
 .solicita-botao{
     width: 470px;
