@@ -467,10 +467,10 @@
 } 
 
 @media screen and (min-width: 850px) and (max-width:1149px){
-
     .logo{
         height: 200px;
     }
+    
     .sobre{
         padding: 50px 0px;
         height: 100%;
