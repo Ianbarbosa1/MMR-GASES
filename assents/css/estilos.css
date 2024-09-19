@@ -6,12 +6,12 @@
 }
 
 /*DIVs FLEX*/
-header, .container-imagens, .frases, .solicita-botao, .redes, .sobre, .container-sobre, .logo-sobre, .diferencias, .container-diferenciais, .container-produtos,.gases-one, .gases-two, .gases-three, .gases-four, .gases-five, .gases-six, .gases-seven, .gases-eight, .titulo-produtos, .botoes, .ver-mais, .ver-menos,.container-produtos-invisivel, .servicos, .container-servicos, .tipo-servico, .perguntas, .container-perguntas, .fale-conosco, .container-contato, .contato, .form-map, .formulario, .parceiros, .empresa, footer, .container-footer, .logo-pagina, .contato-numero, .redes-socias, .sociais, .desenvolvedora{
+#home, .container-imagens, .frases, .solicita-botao, .redes, .sobre, .container-sobre, .logo-sobre, .diferencias, .container-diferenciais, .container-produtos,.gases-one, .gases-two, .gases-three, .gases-four, .gases-five, .gases-six, .gases-seven, .gases-eight, .titulo-produtos, .botoes, .ver-mais, .ver-menos,.container-produtos-invisivel, .servicos, .container-servicos, .tipo-servico, .perguntas, .container-perguntas, .fale-conosco, .container-contato, .contato, .form-map, .formulario, .parceiros, .empresa, footer, .container-footer, .logo-pagina, .contato-numero, .redes-socias, .sociais, .desenvolvedora{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header{
+#home{
     height: 100vh;
     width:100%;
     flex-direction: column;
