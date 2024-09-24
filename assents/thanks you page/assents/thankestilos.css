@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", system-ui;
+}
+header{
+    content: '';
+    background-image: url(./imagens/fundo-preto-letra-bege-completa.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 32);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    gap: 20px;
+    text-align: center;
+}
+.logo{
+    position: absolute;
+    height: 300px;
+}
+
+.container-interno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(3px);
+    width: 70%;
+    gap: 80px;
+}
+
+.frase, .botao, .titulo{
+    color: white;
+    z-index: +1;
+    font-size: 40px;
+    font-weight: 500;
+}
+.titulo{
+    color: rgb(1, 110, 89);
+}
+.botao{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background-color: rgb(1, 110, 89);
+    transition: all 1s;
+    border: 2px solid transparent;
+}
+.botao:hover{
+    border: 2px solid white;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+h2{
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.redes a{
+    text-decoration: none;
+}
+.redes a img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.redes img:hover{
+    border: 2px solid transparent;
+}
