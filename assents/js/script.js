@@ -134,10 +134,10 @@ function uTroca(){
     feed5.style.display = 'none'
 
     bt1.style.backgroundColor = 'rgb(170, 203, 99)'
-    bt2.style.backgroundColor = 'transparent'
-    bt3.style.backgroundColor = 'transparent'
-    bt4.style.backgroundColor = 'transparent'
-    bt5.style.backgroundColor = 'transparent'
+    bt2.style.backgroundColor = 'rgb(208, 208, 198)'
+    bt3.style.backgroundColor = 'rgb(208, 208, 198)'
+    bt4.style.backgroundColor = 'rgb(208, 208, 198)'
+    bt5.style.backgroundColor = 'rgb(208, 208, 198)'
 }
 
 function dTroca(){
@@ -147,11 +147,11 @@ function dTroca(){
     feed4.style.display = 'none'
     feed5.style.display = 'none'
 
-    bt1.style.backgroundColor = 'transparent'
+    bt1.style.backgroundColor = 'rgb(208, 208, 198)'
     bt2.style.backgroundColor = 'rgb(170, 203, 99)'
-    bt3.style.backgroundColor = 'transparent'
-    bt4.style.backgroundColor = 'transparent'
-    bt5.style.backgroundColor = 'transparent'
+    bt3.style.backgroundColor = 'rgb(208, 208, 198)'
+    bt4.style.backgroundColor = 'rgb(208, 208, 198)'
+    bt5.style.backgroundColor = 'rgb(208, 208, 198)'
 }
 
 function tTroca(){
@@ -161,11 +161,11 @@ function tTroca(){
     feed4.style.display = 'none'
     feed5.style.display = 'none'
 
-    bt1.style.backgroundColor = 'transparent'
-    bt2.style.backgroundColor = 'transparent'
+    bt1.style.backgroundColor = 'rgb(208, 208, 198)'
+    bt2.style.backgroundColor = 'rgb(208, 208, 198)'
     bt3.style.backgroundColor = 'rgb(170, 203, 99)'
-    bt4.style.backgroundColor = 'transparent'
-    bt5.style.backgroundColor = 'transparent'
+    bt4.style.backgroundColor = 'rgb(208, 208, 198)'
+    bt5.style.backgroundColor = 'rgb(208, 208, 198)'
 }
 
 function qTroca(){
@@ -175,11 +175,11 @@ function qTroca(){
     feed4.style.display = 'flex'
     feed5.style.display = 'none'
 
-    bt1.style.backgroundColor = 'transparent'
-    bt2.style.backgroundColor = 'transparent'
-    bt3.style.backgroundColor = 'transparent'
+    bt1.style.backgroundColor = 'rgb(208, 208, 198)'
+    bt2.style.backgroundColor = 'rgb(208, 208, 198)'
+    bt3.style.backgroundColor = 'rgb(208, 208, 198)'
     bt4.style.backgroundColor = 'rgb(170, 203, 99)'
-    bt5.style.backgroundColor = 'transparent'
+    bt5.style.backgroundColor = 'rgb(208, 208, 198)'
 }
 
 function cTroca(){
@@ -189,9 +189,9 @@ function cTroca(){
     feed4.style.display = 'none'
     feed5.style.display = 'flex'
 
-    bt1.style.backgroundColor = 'transparent'
-    bt2.style.backgroundColor = 'transparent'
-    bt3.style.backgroundColor = 'transparent'
-    bt4.style.backgroundColor = 'transparent'
+    bt1.style.backgroundColor = 'rgb(208, 208, 198)'
+    bt2.style.backgroundColor = 'rgb(208, 208, 198)'
+    bt3.style.backgroundColor = 'rgb(208, 208, 198)'
+    bt4.style.backgroundColor = 'rgb(208, 208, 198)'
     bt5.style.backgroundColor = 'rgb(170, 203, 99)'
 }
