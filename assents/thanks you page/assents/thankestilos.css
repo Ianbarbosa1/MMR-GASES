@@ -5,11 +5,6 @@
     font-family: "Work Sans", system-ui;
 }
 header{
-    content: '';
-    background-image: url(./imagens/fundo-preto-letra-bege-completa.png);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,18 +22,7 @@ header{
     text-align: center;
 }
 .logo{
-    position: absolute;
-    height: 300px;
-}
-
-.container-interno{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    backdrop-filter: blur(3px);
-    width: 70%;
-    gap: 80px;
+    height: 80px;
 }
 
 .frase, .botao, .titulo{
@@ -49,6 +33,7 @@ header{
 }
 .titulo{
     color: rgb(1, 110, 89);
+    margin-top: 50px;
 }
 .botao{
     font-size: 30px;
@@ -80,6 +65,7 @@ h2{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-bottom: 30px;
 }
 .redes a{
     text-decoration: none;
