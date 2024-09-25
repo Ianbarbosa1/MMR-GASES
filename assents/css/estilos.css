@@ -6,7 +6,7 @@
 }
 
 /*DIVs FLEX*/
-.home, .container-imagens, .frases, .solicita-botao, .redes, .sobre, .container-sobre, .logo-sobre, .diferencias, .container-diferenciais, .container-produtos,.gases-one, .gases-two, .gases-three, .gases-four, .gases-five, .gases-six, .gases-seven, .gases-eight, .titulo-produtos, .botoes, .ver-mais, .ver-menos,.container-produtos-invisivel, .servicos, .container-servicos, .tipo-servico, .perguntas, .container-perguntas, .fale-conosco, .container-contato, .contato, .form-map, .formulario, .parceiros, .empresa, .feedbacks, .feedback-1, .feedback-2, .feedback-3, .feedback-4, .feedback-5, .trocas, footer, .container-footer, .logo-pagina, .contato-numero, .redes-socias, .sociais, .desenvolvedora{
+.home, .container-imagens, .frases, .solicita-botao, .redes, .sobre, .container-sobre, .logo-sobre, .diferencias, .container-diferenciais, .container-produtos,.gases-one, .gases-two, .gases-three, .gases-four, .gases-five, .gases-six, .gases-seven, .gases-eight, .titulo-produtos, .botoes, .ver-mais, .ver-menos,.container-produtos-invisivel, .servicos, .container-servicos, .tipo-servico, .perguntas, .container-perguntas, .fale-conosco, .container-contato, .contato, .form-map, .formulario, .parceiros, .empresa, .feedbacks, .feedback-1, .feedback-2, .feedback-3, .feedback-4, .feedback-5, .section-ns,.trocas, footer, .container-footer, .logo-pagina, .contato-numero, .redes-socias, .sociais, .desenvolvedora{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -415,7 +415,11 @@ main{
     width: 300px;
 }
 .perguntas h3{
-    font-size: 22px; 
+    font-size: 22px;
+    cursor: pointer;
+}
+.perguntas h3:hover{
+    color: rgb(197, 199, 202);
 }
 .perguntas p{
     font-size: 20px;
@@ -553,11 +557,14 @@ textarea{
     background-color: white;
     border-radius: 20px;
 }
+marquee{
+    display: inline-flex;
+    justify-content: center;
+}
 marquee img{
     height: 140px;
     width: 140px;
     margin: 0px 10px;
-    display: inline-block;
 }
 .alok{
     width: 300px;
@@ -571,11 +578,6 @@ marquee img{
 .feedbacks{
     flex-direction: column;
     padding: 100px 0px;
-    content:'';
-    background-image: url(../imagens/logos/semfundo-png/bege-2.png);
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size:auto;
     text-align: center;
 }
 .feedbacks h1{
@@ -583,24 +585,24 @@ marquee img{
     font-size: 40px;
 }
 .feedback-1, .feedback-2, .feedback-3, .feedback-4, .feedback-5{
-    flex-direction: column;
     margin-top: 50px;
-    width: 500px;
-    height: 310px;
+    height: 100%;
     text-align: center;
-    background-image: linear-gradient(to top right, rgba(122, 121, 121, 0.171), rgba(240, 248, 255, 0.082));
-    backdrop-filter: blur(5px);
-    padding: 10px 20px;
-    border-radius: 20px;
+    gap: 50px;
 }
 .feedback-2, .feedback-3, .feedback-4, .feedback-5{
     display: none;
 }
-.feed-title{
-    color: rgb(34, 34, 32);
-    font-size: 25px;
-    font-weight: 500;
-    border-bottom: 1px solid black;
+.feed{
+    border-radius: 20px;
+    padding: 10px 50px;
+    background-image: linear-gradient(to top right, rgba(122, 121, 121, 0.171), rgba(240, 248, 255, 0.082));
+    backdrop-filter: blur(5px);
+    width: 550px;
+}
+.foto{
+    height: 100px;
+    border-radius: 50%;
 }
 .aspas-1, .aspas-2{
     font-size: 45px;
@@ -608,7 +610,7 @@ marquee img{
     position: relative;
 }
 .aspas-1{
-    right: 200px;
+    right: 210px;
     top: 35px;
 }
 .aspas-2{
@@ -617,6 +619,20 @@ marquee img{
 .feed-text{
     font-size: 20px;
     font-family: 'Outfit';
+}
+.section-ns{
+    width: 100%;
+    justify-content: space-between;
+}
+.feed-title{
+    color: rgb(34, 34, 32);
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.estrela{
+    filter: drop-shadow(3px 3px 5px rgb(255, 217, 0));
 }
 .trocas{
     margin-top: 50px;
@@ -633,10 +649,12 @@ marquee img{
     width: 35px;
     border-radius: 50%;
     cursor: pointer;
-    border: 1px solid white;
+}
+.bt2, .bt3, .bt4, .bt5{
+    background-color: rgb(208, 208, 198);
 }
 .bt1:hover, .bt2:hover, .bt3:hover, .bt4:hover, .bt5:hover{
-    border: 1px solid rgb(170, 203, 99);
+    border: 1px solid rgb(1, 110, 89);
 }
 
 
@@ -670,6 +688,8 @@ footer{
 .contato-numero{
     gap: 5px;
     margin: 10px 0px;
+    text-decoration: none;
+    color: white;
 }
 .contato-numero img{
     height: 30px;
