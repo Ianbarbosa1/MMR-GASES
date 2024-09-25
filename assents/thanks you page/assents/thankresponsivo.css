@@ -35,3 +35,20 @@
     }
 }
 
+@media screen and (min-width: 2500px){
+    .container-interno{
+        width: 100%;
+    }
+    .titulo{
+        font-size: 80px;
+    }
+    .frase, .botao{
+        font-size: 70px;
+    }
+    .botao, h2{
+        font-size: 60px; 
+    }
+    .redes a img{
+        height: 90px;
+    }
+}
