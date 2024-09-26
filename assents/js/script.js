@@ -195,3 +195,76 @@ function cTroca(){
     bt4.style.backgroundColor = 'rgb(208, 208, 198)'
     bt5.style.backgroundColor = 'rgb(170, 203, 99)'
 }
+
+//-- PASSAGEM AUTOMATICAS
+setInterval(() => {
+    setTimeout(() => {
+        feed1.style.display = 'flex'
+        feed2.style.display = 'none'
+        feed3.style.display = 'none'
+        feed4.style.display = 'none'
+        feed5.style.display = 'none'
+
+        bt1.style.backgroundColor = 'rgb(170, 203, 99)'
+        bt2.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt3.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt4.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt5.style.backgroundColor = 'rgb(208, 208, 198)'
+    }, 1000);
+
+    setTimeout(() => {
+        feed1.style.display = 'none'
+        feed2.style.display = 'flex'
+        feed3.style.display = 'none'
+        feed4.style.display = 'none'
+        feed5.style.display = 'none'
+
+        bt1.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt2.style.backgroundColor = 'rgb(170, 203, 99)'
+        bt3.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt4.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt5.style.backgroundColor = 'rgb(208, 208, 198)'
+    }, 6000);
+
+    setTimeout(() => {
+        feed1.style.display = 'none'
+        feed2.style.display = 'none'
+        feed3.style.display = 'flex'
+        feed4.style.display = 'none'
+        feed5.style.display = 'none'
+
+        bt1.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt2.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt3.style.backgroundColor = 'rgb(170, 203, 99)'
+        bt4.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt5.style.backgroundColor = 'rgb(208, 208, 198)'
+    }, 11000);
+
+    setTimeout(() => {
+        feed1.style.display = 'none'
+        feed2.style.display = 'none'
+        feed3.style.display = 'none'
+        feed4.style.display = 'flex'
+        feed5.style.display = 'none'
+
+        bt1.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt2.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt3.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt4.style.backgroundColor = 'rgb(170, 203, 99)'
+        bt5.style.backgroundColor = 'rgb(208, 208, 198)'
+    }, 16000);
+
+    setTimeout(() => {
+        feed1.style.display = 'none'
+        feed2.style.display = 'none'
+        feed3.style.display = 'none'
+        feed4.style.display = 'none'
+        feed5.style.display = 'flex'
+
+        bt1.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt2.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt3.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt4.style.backgroundColor = 'rgb(208, 208, 198)'
+        bt5.style.backgroundColor = 'rgb(170, 203, 99)'
+    }, 20000);
+}, 25000);
