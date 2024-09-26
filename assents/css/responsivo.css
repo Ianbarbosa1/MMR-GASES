@@ -34,6 +34,7 @@
     .texto-sobre{
         width: 95%;
         font-size: 20px;
+        line-height: 30px;
     }
 
     .diferencias{
@@ -157,6 +158,7 @@
     }
     .feed{
         width:100%;
+        height: 335px;
         padding: 10px 20px;
     }
     .foto{
@@ -251,6 +253,7 @@
     .texto-sobre{
         width: 95%;
         font-size: 20px;
+        line-height: 32px;
     }
 
     .diferencias{
@@ -671,7 +674,7 @@
 
     .sobre{
         height: 100%;
-        padding: 100px 0px ;
+        padding: 100px 0px;
     }
     .logo-sobre h1{
         font-size: 65px;
@@ -683,9 +686,10 @@
         height: 500px;
     }
     .texto-sobre{
-        font-size: 45px;
-        width: 1000px;
+        font-size: 50px;
+        width: 1500px;
         padding:20px;
+        line-height: 65px;
     }
     .entrar-botao{
         font-size: 30px;
@@ -839,6 +843,7 @@
     .feed{
         padding: 10px 55px;
         width: 800px;
+        height: 540px;
     }
     .foto{
         height: 150px;
@@ -869,7 +874,7 @@
     }
 
     footer{
-        height: 320px;
+        height: 400px;
     }
     .logo-final img{
         height: 120px;
