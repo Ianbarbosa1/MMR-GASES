@@ -106,6 +106,9 @@
     .perguntas h1{
         font-size: 34px;
     }
+    .pergunta-resposta{
+        margin-bottom: 20px;
+    }
 
     .fale-conosco h1{
         font-size: 35px;
