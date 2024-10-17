@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", system-ui;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 32);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    gap: 20px;
+    text-align: center;
+}
+.logo{
+    height: 80px;
+}
+
+.frase, .botao, .titulo{
+    color: white;
+    z-index: +1;
+    font-size: 40px;
+}
+.titulo{
+    color: rgb(1, 110, 89);
+    margin-top: 50px;
+    font-weight: 600;
+}
+.frase{
+    font-weight: 300;
+    max-width: 1000px;
+}
+.botao{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: rgb(1, 110, 89);
+    border: 1px solid rgb(255, 255, 255);
+}
+.botao:hover{
+    border: 1px solid transparent;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+h2{
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.redes a{
+    text-decoration: none;
+}
+.redes a img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.redes img:hover{
+    border: 2px solid transparent;
+}
