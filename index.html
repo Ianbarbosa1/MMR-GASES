@@ -16,28 +16,11 @@
 </head>
 
 <body>
-    
-    <header class="home" id="home">
-        <section class="container-imagens">
-            <img src="./assents/imagens/logos/semfundo-png/verdec-2.png" class="logo" alt="logo principal">
-            <img src="./assents/imagens/logos/semfundo-png/gases.png" class="gases" alt="gases text">
-        </section> 
 
-        <section class="frases">
-            <h1>VELOCIDADE E PREÇO BAIXO
-                <span>DE VERDADE</span>
-            </h1>
-
-            <a href="./assents/thanks you page/thankyou.html" class="solicita-botao" target="_blank">
-                <img src="./assents/imagens/icones/whats.png" alt="WhatsApp">
-                <p>SOLICITE NOSSOS SERVIÇOS</p>
-            </a>
-        </section>
-    </header>
-
-    <main>
-        <!--SOBRE NÓS-->
-        <section class="sobre" id="sobre">
+    <!--SOBRE-NOS-->
+    <article id="sobre-nos">
+        <p id="fechar-sobre">✖</p>
+        <section class="sobre">
             <section class="container-sobre">
                 <div class="logo-sobre">
                     <h1> SOBRE NÓS </h1>
@@ -48,10 +31,51 @@
                     <p>Somos uma empresa líder no fornecimento de gases industriais e medicinais, comprometida em atender a uma ampla gama de setores com soluções inovadoras e de alta qualidade. Com um portfólio diversificado de gases, incluindo hidrogênio, oxigênio, nitrogênio, dióxido de carbono e muitos outros, Nós da <strong>MMR Gases</strong> se destacamos pela capacidade de adaptar nossos produtos para atender às necessidades específicas de nossos clientes.</p>
                 </div>
             </section>
-            
-            <a href="./assents/thanks you page/thankyou.html" class="entrar-botao" target="_blank">ENTRAR EM CONTATO</a>
+        </section>
+    </article>
+    
+    <header class="home" id="home">
+        <!--EMPRESAS PARCEIRAS-->
+        <section class="empresa" > 
+            <marquee scrollamount="12">
+                <img src="./assents/imagens/icones/alok.png" alt="alok" class="alok">
+                <img src="./assents/imagens/icones/ambev.png" alt="ambev" class="ambev">
+                <img src="./assents/imagens/icones/minalba.png" alt="minalba" class="minalba">
+                <img src="./assents/imagens/icones/carnaval-do-rio.png" alt="carnaval-do-rio" class="rio">
+                <img src="./assents/imagens/icones/bk.png" alt="burger-king" class="alok">
+                <img src="./assents/imagens/icones/so-track-boa.png" alt="so-track-boa" class="so-track">
+                <img src="./assents/imagens/icones/rock-in-rio.png" alt="rock-in-rio" class="so-track">
+                <img src="./assents/imagens/icones/rap-festival.png" alt="rap-festival" class="rap">
+            </marquee>
         </section>
 
+        <section class="menu">
+            <a href="#" id="abrir-sobre">SOBRE</a>
+            <a href="#produtos">PRODUTOS</a>
+            <a href="#servicos">SERVIÇOS</a>
+            <a href="#fale-conosco">FALE CONOSCO</a>
+        </section>
+
+        <section class="container-imagens">
+            <img src="./assents/imagens/logos/semfundo-png/verdec-2.png" class="logo" alt="logo principal">
+            <img src="./assents/imagens/logos/semfundo-png/gases.png" class="gases" alt="gases text">
+        </section> 
+
+        <section class="frases">
+            <h1>A QUALIDADE E A SEGURANÇA QUE VOCÊ MERECE, <br> COM A AGILIDADE QUE VOCÊ PRECISA</h1>
+
+            <a href="./assents/thanks you page/thankyou.html" class="solicita-botao" target="_blank">
+                <img src="./assents/imagens/icones/whats.png" alt="WhatsApp">
+                <p>SOLICITE NOSSOS SERVIÇOS</p>
+            </a>
+        </section>
+
+        <a href="./assents/thanks you page/thankyou.html" class="whats-fixo" target="_blank">
+            <img src="./assents/imagens/icones/whats.png" alt="WhatsApp">
+        </a>
+    </header>
+
+    <main>
         <!--DIFERENCIAS-->
         <section class="diferencias">
             <h1>NOSSOS DIFERENCIAS</h1>
@@ -59,15 +83,15 @@
             <section class="container-diferenciais">
                 <div class="diferenca">
                     <img src="./assents/imagens/icones/truckzin.png" alt="caminhão">
-                    <p>Possuímos a entrega mais rápida da região, com profissionais a postos 24hrs.</p>
+                    <p>Possuímos frota diversificada, para levar soluções personalizadas de acordo com as necessidades de cada parceiro.</p>
                 </div>
                 <div class="diferenca">
                     <img src="./assents/imagens/icones/porquinho.png" alt="porco">
-                    <p>Valores que cabem no seu bolso, tendo assim um custo benefício maior.</p>
+                    <p> Garantimos qualidade e confiabilidade que vão além do preço.</p>
                 </div>
                 <div class="diferenca">
                     <img src="./assents/imagens/icones/selo.png" alt="selo">
-                    <p>Produtos de qualidades e de acordo com as normas da ABNT.</p>
+                    <p>Produtos de qualidades e de acordo com as normas da ABNT, garantindo segurança e confiança para o seu negócio.</p>
                 </div>
             </section>
         </section>
@@ -75,87 +99,114 @@
         <!--PRODUTOS-->
         <section class="produtos" id="produtos">
             <nav class="section-logo">
-                <img src="./assents/imagens/logos/semfundo-png/verdec-2.png" alt="">
+                <img src="./assents/imagens/logos/semfundo-png/verdec-2.png" alt="logo-flutuante">
             </nav>
-            <h1>PRINCIPAIS PRODUTOS</h1>
+            <h1>NOSSOS PRODUTOS</h1>
             <div class="four-bar"></div>
             
             <section class="container-produtos">
-                <div class="gases-one">
+                <div class="produto" id="p1">
                     <nav class="titulo-produtos">CO2</nav>
                     <img src="./assents/imagens/produtos/cilindro sem fundo.png" alt="cilindro">
-                    <p class="especificacao">Utilizado para gasificar cervejas, refrigerantes e vinho. <br>
-                        Utilizado em extintores de incêndio. <br> 
-                        Empregado em estufas para promover o crescimento das plantas ao aumentar a concentração de CO₂.</p>
+
+                    <div class="especificacao">
+                        <ul>Modos de utilização:</ul>
+                        <li>Utilizado para gasificar cervejas, refrigerantes e vinho.</li>
+                        <li>Utilizado em extintores de incêndio.</li>
+                        <li>Empregado em estufas para promover o crescimento das plantas ao aumentar a concentração de CO₂.</li>
+                    </div>
+                    
                 </div>
 
-                <div class="gases-two">
+                <div class="produto">
                     <nav class="titulo-produtos">OXIGÊNIO</nav>
                     <img src="./assents/imagens/produtos/cilindro sem fundo.png" alt="cilindro">
-                    <p class="especificacao">Utilizado na produção de aço e outros metais. <br>
-                        Utilizado para terapias de pacientes com dificuldades respiratórias. <br>
-                        Utilizado para tratamento de águas residuais e agricultura.</p>
+                    <div class="especificacao">
+                        <ul>Modos de utilização:</ul>
+                        <li>Utilizado na produção de aço e outros metais.</li>
+                        <li>Utilizado para terapias de pacientes com dificuldades respiratórias.</li>
+                        <li>Utilizado para tratamento de águas residuais e agricultura.</li>
+                    </div>
                 </div>
 
-                <div class="gases-three">
+                <div class="produto">
                     <nav class="titulo-produtos">PROPANO</nav>
                     <img src="./assents/imagens/produtos/cilindro sem fundo.png" alt="cilindro">
-                    <p class="especificacao">Utilizado em combustível residencial e industrial. <br>
-                        Utilizado para criar energia em geradores a gás para suprir demandas energéticas. <br>
-                        Utilizado para refrigeração de refrigerantes.</p>
+
+                    <div class="especificacao">
+                        <ul>Modos de utilização:</ul>
+                        <li>Utilizado em combustível residencial e industrial.</li>
+                        <li>Utilizado para criar energia em geradores a gás para suprir demandas energéticas.</li>
+                        <li>Utilizado para refrigeração de refrigerantes.</li>
+                    </div>
                 </div>
-            </section>
 
-            <section class="botoes">
-                <nav class="ver-mais" id="mais">VER MAIS PRODUTOS <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" width="35px" fill="#e8eaed"><path d="M440-280h80v-160h160v-80H520v-160h-80v160H280v80h160v160Zm40 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg></nav>
-
-                <nav class="ver-menos" id="menos">VER MENOS PRODUTOS<svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#e8eaed"><path d="M280-440h400v-80H280v80ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg></nav>
-            </section>
-
-            <section class="container-produtos-invisivel" id="invisivel">
-                <div class="gases-four">
+                <div class="produto">
                     <nav class="titulo-produtos">ACETILENO</nav>
                     <img src="./assents/imagens/produtos/cilindro sem fundo.png" alt="cilindro">
-                    <p class="especificacao">Usado como matéria-prima na síntese de produtos químicos como plástico, solventes e outros compostos orgânicos. <br>
-                        Utilizado para processos de soldagem e corte.</p>
+
+                    <div class="especificacao">
+                        <ul>Modos de utilização</ul>
+                        <li>Usado como matéria-prima na síntese de produtos químicos como plástico, solventes e outros compostos orgânicos.</li>
+                        <li>Utilizado para processos de soldagem e corte.</li>
+                        <li>Utilizado na fabricação de explosivos</li>
+                    </div>
                 </div>
 
-                <div class="gases-five">
+                <div class="produto">
                     <nav class="titulo-produtos">ARGÔNIO</nav>
                     <img src="./assents/imagens/produtos/cilindro sem fundo.png" alt="cilindro">
-                    <p class="especificacao">Utilizado como gás de proteção em soldagem a arco elétrico para evitar oxidação dos metais. <br>
-                        Utilizado por clinicas dentárias para a prevenção de cárie. <br>
-                        Utilizado em laser para medicina oftalmológica.</p>
+                    <div class="especificacao">
+                        <ul>Modos de utilização:</ul>
+                        <li>Utilizado como gás de proteção em soldagem a arco elétrico para evitar oxidação dos metais.</li>
+                        <li>Utilizado por clinicas dentárias para a prevenção de cárie.</li>
+                        <li>Utilizado em laser para medicina oftalmológica.</li>
+                    </div>
                 </div>
 
-                <div class="gases-six">
+                <div class="produto">
                     <nav class="titulo-produtos">NITROGÊNIO</nav>
                     <img src="./assents/imagens/produtos/cilindro sem fundo.png" alt="cilindro">
-                    <p class="especificacao">Utilizado para inflar pneus de aeronaves, carros de corridas e veículos comerciais.<br>
-                        Utilizado para conservação de alimentos, embalagens e produção de alimentos congelados.</p>
+                    <div class="especificacao">
+                        <ul>Modos de utilização:</ul>
+                        <li>Utilizado para inflar pneus de aeronaves, carros de corridas e veículos comerciais</li>
+                        <li>Utilizado para conservação de alimentos, embalagens e produção de alimentos congelados.</li>
+                        <li>Utilizado na produção de fertilizantes, ácido nítrico, nylon, corantes e explosivos</li>
+                    </div>
                 </div>
-                <div class="gases-seven">
+                <div class="produto">
                     <nav class="titulo-produtos">HIDROGÊNIO</nav>
                     <img src="./assents/imagens/produtos/cilindro sem fundo.png" alt="cilindro">
-                    <p class="especificacao">Utilizado para maçarico de arco voltaico. <br>
-                        Utilizado como matéria-prima para amônia para fertilizantes. <br>
-                        Utilizado para reações orgânicas que transformam gorduras em óleos vegetais.</p>
+                    <div class="especificacao">
+                        <ul>Modos de utilização:</ul>
+                        <li>Utilizado para maçarico de arco voltaico.</li>
+                        <li>Utilizado como matéria-prima para amônia para fertilizantes.</li>
+                        <li>Utilizado para reações orgânicas que transformam gorduras em óleos vegetais.</li>
+                    </div>
                 </div>
 
-                <div class="gases-eight">
+                <div class="produto">
                     <nav class="titulo-produtos">HÉLIO</nav>
                     <img src="./assents/imagens/produtos/cilindro sem fundo.png" alt="cilindro">
-                    <p class="especificacao">Utilizado para enchimento de balões. <br>
-                        Utilizado como gás engarrafado para mergulhadores. <br>
-                        Empregado na ressonância magnética para resfriar imãs supercondutores.</p>
+                    <div class="especificacao">
+                        <ul>Modos de utilização:</ul>
+                        <li>Utilizado para enchimento de balões.</li>
+                        <li>Utilizado como gás engarrafado para mergulhadores.</li>
+                        <li>Empregado na ressonância magnética para resfriar imãs supercondutores.</li>
+                    </div>
                 </div>
             </section>
+
+            <nav class="secao-botao">
+                <a href="./assents/thanks you page/thankyou.html" class="botao-produtos" target="_blank">CONSULTAR ESPECIALISTA</a>
+            </nav>
+            
         </section>
 
         <!--SERVIÇOS-->
         <section class="servicos" id="servicos">
             <h1>SERVIÇOS</h1>
-            <small>DISPONIBILIZAMOS SERVIÇO DE QUALIDADE PARA VOCÊ E SUA EMPRESA</small>
+            <small>CONTAMOS COM SERVIÇOS DE QUALIDADE E COM PROFISSIONAIS PRONTOS PARA ATENDER VOCÊ E SUA EMPRESA</small>
 
             <section class="container-servicos">
                 <div class="tipo-servico">
@@ -181,6 +232,152 @@
         </section>
 
         <hr>
+        <!--FEEDBACKS DE CLIENTES-->
+        <section class="feedbacks">
+            <h1>FEEDBACKS DE CLIENTES</h1>
+
+            <div class="feedback-1">
+                <div class="feed">
+                    <img src="./assents/imagens/feedbacks/dj-vannier.jpg" alt="dj-vannier" class="foto">
+                    <span class="aspas-1">“</span>
+                    <p class="feed-text">Prontidão e qualidade!</p>
+                    <p class="feed-text">Sempre fui muito bem atendido e super recomendo!</p>
+                    <p class="feed-text">São anos de parceria com essa equipe super treinada com equipamentos da melhor qualidade! Obrigado por tudo. Confio e indico de olhos fechados</p>
+                    <p class="feed-text">MMR GASES A MELHOR DO BRASIL!!!</p>
+                    <p class="feed-text"><span class="aspas-2">”</span></p>
+                    <nav class="section-ns">
+                        <h2 class="feed-title">DJ Vannier</h2>
+                        <p class="estrela">⭐⭐⭐⭐⭐</p>
+                    </nav>
+                </div>
+
+                <div class="feed">
+                    <img src="./assents/imagens/feedbacks/leandro-samuel.jpg" alt="leandro-samuel" class="foto">
+                    <span class="aspas-1">“</span>
+                    <p class="feed-text"> Produtos de excelente qualidade!</p>
+                    <p class="feed-text">Sem contar a equipe desde a entrega até a diretoria, sempre disposto a nos atender!</p>
+                    <p class="feed-text">Não é à toa que em 2022 fizemos mais de 250 apresentações com os produtos da MMR.</p>
+                    <p class="feed-text"><span class="aspas-2">”</span></p>
+                    <nav class="section-ns">
+                        <h2 class="feed-title">Leandro Samuel</h2>
+                        <p class="estrela">⭐⭐⭐⭐⭐</p>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="feedback-2">
+                <div class="feed">
+                    <img src="./assents/imagens/feedbacks/esther-jose.png" alt="esther-jose" class="foto">
+                    <p class="feed-text"><span class="aspas-1">“</span></p>
+                    <p class="feed-text">Equipe tooop!</p>
+                    <p class="feed-text">Excelentes funcionários, ótimos serviços!</p>
+                    <p class="feed-text">Atendimento maravilhoso, a menina do administrativo, muito atenciosa e educada.</p>
+                    <p class="feed-text"><span class="aspas-2">”</span></p>
+                    <nav class="section-ns">
+                        <h2 class="feed-title">Esther José</h2>
+                        <p class="estrela">⭐⭐⭐⭐⭐</p>
+                    </nav>
+                </div>
+
+                <div class="feed">
+                    <img src="./assents/imagens/feedbacks/thais-martins.jpg" alt="thais-martins" class="foto">
+                    <p class="feed-text"><span class="aspas-1">“</span></p>
+                    <p class="feed-text">Empresa de excelência!</p>
+                    <p class="feed-text">Atendimento maravilhoso, entrega com eficiência e comprometimento...</p>
+                    <p class="feed-text">Recomendo demais!</p>
+                    <p class="feed-text"><span class="aspas-2">”</span></p>
+                    <nav class="section-ns">
+                        <h2 class="feed-title">Thais Martins</h2>
+                        <p class="estrela">⭐⭐⭐⭐⭐</p>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="feedback-3">
+                <div class="feed">
+                    <img src="./assents/imagens/feedbacks/edson-carlos.png" alt="edson-carlos" class="foto">
+                    <p class="feed-text"><span class="aspas-1">“</span></p>
+                    <p class="feed-text">Ótimo atendimento!</p>
+                    <p class="feed-text">Profissionais super qualificados e produtos de qualidade</p>
+                    <p class="feed-text"><span class="aspas-2">”</span></p>
+                    <nav class="section-ns">
+                        <h2 class="feed-title">Edson Carlos</h2>
+                        <p class="estrela">⭐⭐⭐⭐⭐</p>
+                    </nav>
+                </div>
+
+                <div class="feed">
+                    <img src="./assents/imagens/feedbacks/suelen-quitiliano.jpg" alt="suelen-quitiliano" class="foto">
+                    <p class="feed-text"><span class="aspas-1">“</span></p>
+                    <p class="feed-text">Excelente atendimento e profissionalismo da equipe!</p>
+                    <p class="feed-text"><span class="aspas-2">”</span></p>
+                    <nav class="section-ns">
+                        <h2 class="feed-title">Suelen Quintiliano</h2>
+                        <p class="estrela">⭐⭐⭐⭐⭐</p>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="feedback-4">
+                <div class="feed">
+                    <img src="./assents/imagens/feedbacks/joao-pedro-garcia.png" alt="joao-pedro-garcia" class="foto">
+                    <p class="feed-text"><span class="aspas-1">“</span></p>
+                    <p class="feed-text">Liguei as 02:00 da manhã me atenderam e entregaram rapidamente, excelente atendimento!</p>
+                    <p class="feed-text"><span class="aspas-2">”</span></p>
+                    <nav class="section-ns">
+                        <h2 class="feed-title">João Pedro Garcia</h2>
+                        <p class="estrela">⭐⭐⭐⭐⭐</p>
+                    </nav>
+                </div>
+
+                <div class="feed">
+                    <img src="./assents/imagens/feedbacks/lucas-garcia.jpg" alt="lucas-garcia" class="foto">
+                    <p class="feed-text"><span class="aspas-1">“</span></p>
+                    <p class="feed-text">Qualidade no atendimento e na entrega do produto!</p>
+                    <p class="feed-text">Estão de parabéns.</p>
+                    <p class="feed-text"><span class="aspas-2">”</span></p>
+                    <nav class="section-ns">
+                        <h2 class="feed-title">Lucas Garcia</h2>
+                        <p class="estrela">⭐⭐⭐⭐⭐</p>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="feedback-5">
+                <div class="feed">
+                    <img src="./assents/imagens/feedbacks/alta-effect.jpg" alt="alta-effect" class="foto">
+                    <p class="feed-text"><span class="aspas-1">“</span></p>
+                    <p class="feed-text">Empresa seríssima e logística sensacional</p>
+                    <p class="feed-text">Feliz demais em ser parceiro da MMR Gases</p>
+                    <p class="feed-text"><span class="aspas-2">”</span></p>
+                    <nav class="section-ns">
+                        <h2 class="feed-title">Alta Effect</h2>
+                        <p class="estrela">⭐⭐⭐⭐⭐</p>
+                    </nav>
+                </div>
+
+                <div class="feed">
+                    <img src="./assents/imagens/feedbacks/daniel-castro.png" alt="daniel-castro" class="foto">
+                    <p class="feed-text"><span class="aspas-1">“</span></p>
+                    <p class="feed-text">Melhor empresa de gases do Rio.</p>
+                    <p class="feed-text">O carequinha da MMR é muito gente fina.</p>
+                    <p class="feed-text"><span class="aspas-2">”</span></p>
+                    <nav class="section-ns">
+                        <h2 class="feed-title">Daniel Castro</h2>
+                        <p class="estrela">⭐⭐⭐⭐⭐</p>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="trocas">
+                <nav class="bt1"></nav>
+                <nav class="bt2"></nav>
+                <nav class="bt3"></nav>
+                <nav class="bt4"></nav>
+                <nav class="bt5"></nav>
+            </nav>
+        </section>
+
         <!--PERGUNTAS E RESPOSTAS-->
         <section class="perguntas">
             <nav class="section-logo-pr">
@@ -215,7 +412,6 @@
             </section>
         </section>
 
-        <hr>
         <!--FALE CONOSCO-->
         <section class="fale-conosco" id="fale-conosco">
             <h1>FALE CONOSCO</h1>
@@ -260,177 +456,6 @@
                 </form>
             </section>
         </section>
-
-        <!--EMPRESAS PARCEIRAS-->
-        <section class="parceiros">
-            <h1>EMPRESAS E GRANDES PARCEIROS </h1>
-
-            <div class="empresa" > 
-                <marquee scrollamount="12">
-                    <img src="./assents/imagens/icones/rock-in-rio.png" alt="">
-                    <img src="./assents/imagens/icones/carnaval-do-rio.png" alt="">
-                    <img src="./assents/imagens/icones/so-track-boa.png" alt="">
-                    <img src="./assents/imagens/icones/rap-festival.png" alt="" >
-                    <img src="./assents/imagens/icones/ambev.png" alt="" class="minalba">
-                    <img src="./assents/imagens/icones/minalba.png" alt="" class="minalba">
-                    <img src="./assents/imagens/icones/burguer-king.png" alt="">
-                    <img src="./assents/imagens/icones/alok-logo.png" alt="" class="alok">
-                    <img src="./assents/imagens/icones/rock-in-rio.png" alt="">
-                    <img src="./assents/imagens/icones/carnaval-do-rio.png" alt="">
-                    <img src="./assents/imagens/icones/so-track-boa.png" alt="">
-                    <img src="./assents/imagens/icones/rap-festival.png" alt="" >
-                    <img src="./assents/imagens/icones/ambev.png" alt="" class="minalba">
-                    <img src="./assents/imagens/icones/minalba.png" alt="" class="minalba">
-                    <img src="./assents/imagens/icones/burguer-king.png" alt="">
-                </marquee>
-            </div>
-        </section>
-
-        <!--FEEDBACKS DE CLIENTES-->
-        <section class="feedbacks">
-            <h1>FEEDBACKS DE CLIENTES</h1>
-
-            <div class="feedback-1">
-                <div class="feed">
-                    <img src="./assents/imagens/feedbacks/dj-vannier.jpg" alt="" class="foto">
-                    <span class="aspas-1">“</span>
-                    <p class="feed-text">Prontidão e qualidade!</p>
-                    <p class="feed-text">Sempre fui muito bem atendido e super recomendo!</p>
-                    <p class="feed-text">São anos de parceria com essa equipe super treinada com equipamentos da melhor qualidade! Obrigado por tudo. Confio e indico de olhos fechados</p>
-                    <p class="feed-text">MMR GASES A MELHOR DO BRASIL!!!</p>
-                    <p class="feed-text"><span class="aspas-2">”</span></p>
-                    <nav class="section-ns">
-                        <h2 class="feed-title">DJ Vannier</h2>
-                        <p class="estrela">⭐⭐⭐⭐⭐</p>
-                    </nav>
-                </div>
-
-                <div class="feed">
-                    <img src="./assents/imagens/feedbacks/leandro-samuel.jpg" alt="" class="foto">
-                    <span class="aspas-1">“</span>
-                    <p class="feed-text"> Produtos de excelente qualidade!</p>
-                    <p class="feed-text">Sem contar a equipe desde a entrega até a diretoria, sempre disposto a nos atender!</p>
-                    <p class="feed-text">Não é à toa que em 2022 fizemos mais de 250 apresentações com os produtos da MMR.</p>
-                    <p class="feed-text"><span class="aspas-2">”</span></p>
-                    <nav class="section-ns">
-                        <h2 class="feed-title">Leandro Samuel</h2>
-                        <p class="estrela">⭐⭐⭐⭐⭐</p>
-                    </nav>
-                </div>
-            </div>
-
-            <div class="feedback-2">
-                <div class="feed">
-                    <img src="./assents/imagens/feedbacks/esther-jose.png" alt="" class="foto">
-                    <p class="feed-text"><span class="aspas-1">“</span></p>
-                    <p class="feed-text">Equipe tooop!</p>
-                    <p class="feed-text">Excelentes funcionários, ótimos serviços!</p>
-                    <p class="feed-text">Atendimento maravilhoso, a menina do administrativo, muito atenciosa e educada.</p>
-                    <p class="feed-text"><span class="aspas-2">”</span></p>
-                    <nav class="section-ns">
-                        <h2 class="feed-title">Esther José</h2>
-                        <p class="estrela">⭐⭐⭐⭐⭐</p>
-                    </nav>
-                </div>
-
-                <div class="feed">
-                    <img src="./assents/imagens/feedbacks/thais-martins.jpg" alt="" class="foto">
-                    <p class="feed-text"><span class="aspas-1">“</span></p>
-                    <p class="feed-text">Empresa de excelência!</p>
-                    <p class="feed-text">Atendimento maravilhoso, entrega com eficiência e comprometimento...</p>
-                    <p class="feed-text">Recomendo demais!</p>
-                    <p class="feed-text"><span class="aspas-2">”</span></p>
-                    <nav class="section-ns">
-                        <h2 class="feed-title">Thais Martins</h2>
-                        <p class="estrela">⭐⭐⭐⭐⭐</p>
-                    </nav>
-                </div>
-            </div>
-
-            <div class="feedback-3">
-                <div class="feed">
-                    <img src="./assents/imagens/feedbacks/edson-carlos.png" alt="" class="foto">
-                    <p class="feed-text"><span class="aspas-1">“</span></p>
-                    <p class="feed-text">Ótimo atendimento!</p>
-                    <p class="feed-text">Profissionais super qualificados e produtos de qualidade</p>
-                    <p class="feed-text"><span class="aspas-2">”</span></p>
-                    <nav class="section-ns">
-                        <h2 class="feed-title">Edson Carlos</h2>
-                        <p class="estrela">⭐⭐⭐⭐⭐</p>
-                    </nav>
-                </div>
-
-                <div class="feed">
-                    <img src="./assents/imagens/feedbacks/suelen-quitiliano.jpg" alt="" class="foto">
-                    <p class="feed-text"><span class="aspas-1">“</span></p>
-                    <p class="feed-text">Excelente atendimento e profissionalismo da equipe!</p>
-                    <p class="feed-text"><span class="aspas-2">”</span></p>
-                    <nav class="section-ns">
-                        <h2 class="feed-title">Suelen Quintiliano</h2>
-                        <p class="estrela">⭐⭐⭐⭐⭐</p>
-                    </nav>
-                </div>
-            </div>
-
-            <div class="feedback-4">
-                <div class="feed">
-                    <img src="./assents/imagens/feedbacks/joao-pedro-garcia.png" alt="" class="foto">
-                    <p class="feed-text"><span class="aspas-1">“</span></p>
-                    <p class="feed-text">Liguei as 02:00 da manhã me atenderam e entregaram rapidamente, excelente atendimento!</p>
-                    <p class="feed-text"><span class="aspas-2">”</span></p>
-                    <nav class="section-ns">
-                        <h2 class="feed-title">João Pedro Garcia</h2>
-                        <p class="estrela">⭐⭐⭐⭐⭐</p>
-                    </nav>
-                </div>
-
-                <div class="feed">
-                    <img src="./assents/imagens/feedbacks/lucas-garcia.jpg" alt="" class="foto">
-                    <p class="feed-text"><span class="aspas-1">“</span></p>
-                    <p class="feed-text">Qualidade no atendimento e na entrega do produto!</p>
-                    <p class="feed-text">Estão de parabéns.</p>
-                    <p class="feed-text"><span class="aspas-2">”</span></p>
-                    <nav class="section-ns">
-                        <h2 class="feed-title">Lucas Garcia</h2>
-                        <p class="estrela">⭐⭐⭐⭐⭐</p>
-                    </nav>
-                </div>
-            </div>
-
-            <div class="feedback-5">
-                <div class="feed">
-                    <img src="./assents/imagens/feedbacks/alta-effect.jpg" alt="" class="foto">
-                    <p class="feed-text"><span class="aspas-1">“</span></p>
-                    <p class="feed-text">Empresa seríssima e logística sensacional</p>
-                    <p class="feed-text">Feliz demais em ser parceiro da MMR Gases</p>
-                    <p class="feed-text"><span class="aspas-2">”</span></p>
-                    <nav class="section-ns">
-                        <h2 class="feed-title">Alta Effect</h2>
-                        <p class="estrela">⭐⭐⭐⭐⭐</p>
-                    </nav>
-                </div>
-
-                <div class="feed">
-                    <img src="./assents/imagens/feedbacks/daniel-castro.png" alt="" class="foto">
-                    <p class="feed-text"><span class="aspas-1">“</span></p>
-                    <p class="feed-text">Melhor empresa de gases do Rio.</p>
-                    <p class="feed-text">O carequinha da MMR é muito gente fina.</p>
-                    <p class="feed-text"><span class="aspas-2">”</span></p>
-                    <nav class="section-ns">
-                        <h2 class="feed-title">Daniel Castro</h2>
-                        <p class="estrela">⭐⭐⭐⭐⭐</p>
-                    </nav>
-                </div>
-            </div>
-
-            <nav class="trocas">
-                <nav class="bt1"></nav>
-                <nav class="bt2"></nav>
-                <nav class="bt3"></nav>
-                <nav class="bt4"></nav>
-                <nav class="bt5"></nav>
-            </nav>
-        </section>
     </main>
 
     <footer>
@@ -438,12 +463,12 @@
             <div class="logo-final">
                 <img src="./assents/imagens/logos/semfundo-png/bege-completa.png" alt="logo final"><br>
                 <strong>MMR OXIGÊNIO</strong>
-                <p>CNPJ: 0000-OOOO-OOOO/00</p>
+                <p>CNPJ: XX.XXX.XXX/0001-XX</p>
                 <p>RJ - BRASIL</p>
                 <p>© Todos os direitos reservados</p>
             </div>
 
-            <div class="logo-final-contato">
+            <div class="contatos-finais">
                 <h2>CONTATO</h2>
                 <a href="./assents/thanks you page/thankyou.html" class="contato-numero" target="_blank">
                     <img src="./assents/imagens/icones/whats-contato.png" alt="WhatsApp">
@@ -455,10 +480,10 @@
                 </a>
             </div>
 
-            <div class="logo-pagina">
+            <div class="paginas">
                 <h2>PÁGINAS</h2>
                 <a href="#home">HOME</a>
-                <a href="#sobre">SOBRE</a>
+                <a id="abrir-sobre-last">SOBRE</a>
                 <a href="#produtos">PRODUTOS</a>
                 <a href="#servicos">SERVIÇOS</a>
                 <a href="#fale-conosco">FALE CONOSCO</a>
