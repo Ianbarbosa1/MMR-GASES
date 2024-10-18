@@ -315,6 +315,15 @@
         height: 250px;
         width: 300px;
     }
+    .tipo-servico h2{
+        bottom: 30px;
+        font-size: 20px;
+    }
+    .tipo-servico p{
+        bottom: 40px;
+        font-size: 16px;
+        padding: 0px 5px;
+    }
     /*-----------------------------------*/
     .feedback-1, .feedback-2, .feedback-3, .feedback-4, .feedback-5{
         flex-direction: column;
@@ -949,7 +958,6 @@
         height: 40px;
     }
 }
-
 /*ALTERAÇÃO GLOBAL*/
 @media screen and (max-width:1250px){
     .paginas{
