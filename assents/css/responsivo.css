@@ -574,6 +574,9 @@
     .logo{
         height: 150px;
     }
+    .gases{
+        height: 45px;
+    }
     .frases h1{
         font-size: 30px;
     }
@@ -653,6 +656,12 @@
     .menu{
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+    .logo{
+        height: 190px;
+    }
+    .gases{
+        height: 45px;
     }
     /*-----------------------------------*/
     .container-servicos{
