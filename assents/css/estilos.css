@@ -99,6 +99,7 @@ marquee{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .empresa::before{
     content: "EMPRESAS PARCEIRAS";
@@ -200,7 +201,7 @@ marquee img{
     flex-direction: column;
 }
 .logo{
-    height: 250px;
+    height: 210px;
     opacity: 0;
 }
 .gases{
@@ -717,6 +718,7 @@ textarea{
 /*EMPRESAS PARCEIRAS 2*/
 .parceiros{
     height: 100%;
+    width: 100%;
     padding: 100px 0px;
     background-color: rgb(1, 110, 89);
     flex-direction: column;
@@ -729,6 +731,7 @@ textarea{
 }
 .marquee-secundario{
     background-color: rgba(240, 248, 255, 0.226);
+    width: 100%;
 }
 
 /*RODAPÉ*/
